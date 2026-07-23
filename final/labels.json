@@ -1,0 +1,84 @@
+{
+  "class_ids": {
+    "dtype": "uint8",
+    "values": "0-7"
+  },
+  "confidence": {
+    "dtype": "uint8",
+    "encoding": "round(max_probability * 255)"
+  },
+  "classes": [
+    {
+      "id": 0,
+      "name": "bareland",
+      "color_rgb": [
+        128,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1,
+      "name": "rangeland",
+      "color_rgb": [
+        0,
+        255,
+        36
+      ]
+    },
+    {
+      "id": 2,
+      "name": "developed_space",
+      "color_rgb": [
+        148,
+        148,
+        148
+      ]
+    },
+    {
+      "id": 3,
+      "name": "road",
+      "color_rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "id": 4,
+      "name": "tree",
+      "color_rgb": [
+        34,
+        97,
+        38
+      ]
+    },
+    {
+      "id": 5,
+      "name": "water",
+      "color_rgb": [
+        0,
+        69,
+        255
+      ]
+    },
+    {
+      "id": 6,
+      "name": "agriculture_land",
+      "color_rgb": [
+        75,
+        181,
+        73
+      ]
+    },
+    {
+      "id": 7,
+      "name": "building",
+      "color_rgb": [
+        222,
+        31,
+        7
+      ]
+    }
+  ]
+}
